@@ -79,7 +79,7 @@ How one job moves through it is in [docs/architecture.md](docs/architecture.md).
 
 ## The list
 
-Stars and last push were read from the GitHub API on **12 November 2026**. "Last push" is the date of the newest push to any branch. A licence marked with * is read from the repository's licence file, because GitHub does not report it as a standard licence.
+Stars and last push were read from the GitHub API on **13 November 2026**. "Last push" is the date of the newest push to any branch. A licence marked with * is read from the repository's licence file, because GitHub does not report it as a standard licence.
 
 What we have run ourselves: adb, scrcpy, uiautomator2, adbutils and WebRTC are part of our own farms. The other entries are described from their documentation and repository data. If a description is wrong, please open an issue.
 
@@ -97,7 +97,7 @@ What we have run ourselves: adb, scrcpy, uiautomator2, adbutils and WebRTC are p
 
 | Tool | What it does | Licence | Stars | Last push |
 |---|---|---|---|---|
-| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | Shows a phone's screen on your computer and passes keyboard and mouse to it. No root, nothing left installed on the phone, Android 5.0 and later. The standard tool. | Apache-2.0 | 154.6k | 2026-11-10 |
+| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | Shows a phone's screen on your computer and passes keyboard and mouse to it. No root, nothing left installed on the phone, Android 5.0 and later. The standard tool. | Apache-2.0 | 154.7k | 2026-11-12 |
 | [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) | Desktop app built on the scrcpy approach with group control: one input sent to many phones. | Apache-2.0 | 32.8k | 2026-10-15 |
 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | A graphical front end for scrcpy, for people who do not want the command line. | Apache-2.0 | 12.4k | 2026-10-26 |
 | [NetrisTV/ws-scrcpy](https://github.com/NetrisTV/ws-scrcpy) | scrcpy in a web browser. Its own description calls it a prototype. | MIT | 2.6k | 2026-10-31 |
@@ -109,11 +109,11 @@ What we have run ourselves: adb, scrcpy, uiautomator2, adbutils and WebRTC are p
 | [openatx/uiautomator2](https://github.com/openatx/uiautomator2) | Python wrapper around Android's UI Automator. Finds elements by text or ID and taps, types and reads them. Android 4.4 and later, Python 3.8 and later. | MIT | 8.5k | 2026-11-03 |
 | [appium/appium](https://github.com/appium/appium) | Cross-platform automation server that speaks the W3C WebDriver protocol. More setup than uiautomator2, and more languages and tooling. | Apache-2.0 | 22.2k | 2026-11-12 |
 | [appium/appium-uiautomator2-driver](https://github.com/appium/appium-uiautomator2-driver) | The Appium driver you need for Android. | Apache-2.0 | 896 | 2026-11-11 |
-| [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) | Flows written in YAML. Quick to write and read; built for testing one app, not for running a fleet. | Apache-2.0 | 16.4k | 2026-11-12 |
+| [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) | Flows written in YAML. Quick to write and read; built for testing one app, not for running a fleet. | Apache-2.0 | 16.4k | 2026-11-13 |
 | [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) | Automation that matches images on the screen. The one to try for games and apps that expose no elements. | Apache-2.0 | 9.6k | 2026-03-23 |
-| [google/mobly](https://github.com/google/mobly) | Google's Python test framework for tests that need several devices at once. | Apache-2.0 | 762 | 2026-11-11 |
-| [codeskyblue/uiautodev](https://github.com/codeskyblue/uiautodev) | Shows a phone's UI tree in the browser and writes the XPath for an element. Use it to find selectors. | MIT | 543 | 2026-10-07 |
-| [appium/appium-inspector](https://github.com/appium/appium-inspector) | The element inspector for Appium. Needs an Appium server running. | Apache-2.0 | 1.9k | 2026-11-12 |
+| [google/mobly](https://github.com/google/mobly) | Google's Python test framework for tests that need several devices at once. | Apache-2.0 | 762 | 2026-11-12 |
+| [codeskyblue/uiautodev](https://github.com/codeskyblue/uiautodev) | Shows a phone's UI tree in the browser and writes the XPath for an element. Use it to find selectors. | MIT | 544 | 2026-10-07 |
+| [appium/appium-inspector](https://github.com/appium/appium-inspector) | The element inspector for Appium. Needs an Appium server running. | Apache-2.0 | 1.9k | 2026-11-13 |
 
 ### AI agents that drive a phone
 
@@ -123,8 +123,8 @@ These let a language model read the screen and choose the next tap. They are new
 |---|---|---|---|---|
 | [zai-org/Open-AutoGLM](https://github.com/zai-org/Open-AutoGLM) | An open phone-agent model and the framework to run it. | Apache-2.0 | 26.6k | 2026-03-06 |
 | [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | MCP server that gives an AI agent control of Android and iOS simulators, emulators and real devices. | Apache-2.0 | 10.5k | 2026-11-11 |
-| [droidrun/mobilerun](https://github.com/droidrun/mobilerun) | Controls phones with natural-language commands and works with different model providers. | MIT | 10.0k | 2026-11-12 |
-| [minitap-ai/mobile-use](https://github.com/minitap-ai/mobile-use) | Agent that operates real Android and iOS apps. | Apache-2.0 | 3.4k | 2026-11-11 |
+| [droidrun/mobilerun](https://github.com/droidrun/mobilerun) | Controls phones with natural-language commands and works with different model providers. | MIT | 10.0k | 2026-11-13 |
+| [minitap-ai/mobile-use](https://github.com/minitap-ai/mobile-use) | Agent that operates real Android and iOS apps. | Apache-2.0 | 3.4k | 2026-11-12 |
 
 ### Manage the fleet
 
@@ -132,10 +132,10 @@ These let a language model read the screen and choose the next tap. They are new
 |---|---|---|---|---|
 | [DeviceFarmer/stf](https://github.com/DeviceFarmer/stf) | Smartphone Test Farm. Lists your phones in a browser, lets a person reserve one and control it remotely. Its README lists support for Android 2.3.3 to 15 without root. | Apache-2.0* | 4.7k | 2026-11-12 |
 | [shamanec/GADS](https://github.com/shamanec/GADS) | Device farm for remote control and Appium test runs on Android and iOS. Free to use, but the hub's web interface is proprietary and shipped obfuscated; the rest is AGPL-3.0. | AGPL-3.0 and proprietary | 415 | 2026-11-02 |
-| [AppiumTestDistribution/appium-device-farm](https://github.com/AppiumTestDistribution/appium-device-farm) | Appium plugin that hands test sessions to whichever connected device is free. | Apache-2.0 | 660 | 2026-10-16 |
+| [AppiumTestDistribution/appium-device-farm](https://github.com/AppiumTestDistribution/appium-device-farm) | Appium plugin that hands test sessions to whichever connected device is free. | Apache-2.0 | 661 | 2026-10-16 |
 | [zebrunner/mcloud](https://github.com/zebrunner/mcloud) | Device farm for Android and iOS that is packaged to run in Docker. | Apache-2.0 | 206 | 2026-11-12 |
 | [openatx/atxserver2](https://github.com/openatx/atxserver2) | Device management server from the uiautomator2 authors. Quiet since June 2026. | MIT | 1.4k | 2026-06-17 |
-| [KnifeLemon/Droidline](https://github.com/KnifeLemon/Droidline) | Controls phones through an app installed on each phone instead of adb, so no cable or USB debugging is needed. Its README has a plain list of what it cannot do. Started in October 2026. | MIT | 523 | 2026-11-03 |
+| [KnifeLemon/Droidline](https://github.com/KnifeLemon/Droidline) | Controls phones through an app installed on each phone instead of adb, so no cable or USB debugging is needed. Its README has a plain list of what it cannot do. Started in October 2026. | MIT | 529 | 2026-11-03 |
 | [h-mdm/hmdm-server](https://github.com/h-mdm/hmdm-server) | Headwind MDM. Installs and updates apps and reads device information across many Android phones from a web panel. | Apache-2.0 | 570 | 2026-11-06 |
 
 Archived, listed so you do not spend time on them: [SonicCloudOrg/sonic-server](https://github.com/SonicCloudOrg/sonic-server) (archived, last push 2025-03-24) and [agoda-com/android-farm](https://github.com/agoda-com/android-farm) (archived, last push 2020-05-03).
@@ -148,7 +148,7 @@ An iPhone farm is harder to run than an Android one, and you need Xcode on a Mac
 |---|---|---|---|---|
 | [appium/WebDriverAgent](https://github.com/appium/WebDriverAgent) | The WebDriver server that runs on the iPhone. Almost every iOS automation tool depends on it. | BSD* | 2.0k | 2026-10-29 |
 | [meta/idb](https://github.com/meta/idb) | Command line for automating iOS simulators and devices. | MIT | 5.4k | 2026-11-11 |
-| [danielpaulus/go-ios](https://github.com/danielpaulus/go-ios) | Talks to iPhones from Linux, Windows or macOS: install apps, start tests, read device information. | MIT | 2.3k | 2026-11-11 |
+| [danielpaulus/go-ios](https://github.com/danielpaulus/go-ios) | Talks to iPhones from Linux, Windows or macOS: install apps, start tests, read device information. | MIT | 2.3k | 2026-11-12 |
 | [alibaba/tidevice](https://github.com/alibaba/tidevice) | Python tool for the same job. No push since November 2025. | MIT | 2.6k | 2025-11-21 |
 
 ### Power, USB and network
@@ -157,7 +157,7 @@ An iPhone farm is harder to run than an Android one, and you need Xcode on a Mac
 |---|---|---|---|---|
 | [mvp/uhubctl](https://github.com/mvp/uhubctl) | Switches USB power on one hub port, so software can power-cycle one stuck phone. Works only with hubs that support per-port switching; the README lists them. | GPL-2.0* | 2.9k | 2026-07-25 |
 | [Genymobile/gnirehtet](https://github.com/Genymobile/gnirehtet) | Reverse tethering: phones use the host's network connection through the USB cable. No push since August 2024. | Apache-2.0 | 8.1k | 2024-08-11 |
-| [tailscale/tailscale](https://github.com/tailscale/tailscale) | Private network between your laptop and the rack's host, so you can reach the host without opening ports. | BSD-3-Clause | 39.0k | 2026-11-12 |
+| [tailscale/tailscale](https://github.com/tailscale/tailscale) | Private network between your laptop and the rack's host, so you can reach the host without opening ports. | BSD-3-Clause | 39.0k | 2026-11-13 |
 
 ### Stream screens to a browser
 
@@ -165,7 +165,7 @@ scrcpy is enough for one person at the rack. To let several people watch phones 
 
 | Tool | What it does | Licence | Stars | Last push |
 |---|---|---|---|---|
-| [livekit/livekit](https://github.com/livekit/livekit) | A complete WebRTC server with rooms and client libraries. | Apache-2.0 | 22.2k | 2026-11-12 |
+| [livekit/livekit](https://github.com/livekit/livekit) | A complete WebRTC server with rooms and client libraries. | Apache-2.0 | 22.2k | 2026-11-13 |
 | [pion/webrtc](https://github.com/pion/webrtc) | WebRTC in Go, for building your own stream. | MIT | 16.9k | 2026-11-12 |
 | [webrtc-rs/webrtc](https://github.com/webrtc-rs/webrtc) | WebRTC in Rust. | Apache-2.0 | 5.2k | 2026-11-07 |
 
@@ -176,18 +176,18 @@ Nothing here is specific to phones. A farm needs a queue that survives a restart
 | Tool | What it does | Licence | Stars | Last push |
 |---|---|---|---|---|
 | [celery/celery](https://github.com/celery/celery) | Task queue for Python, with scheduled tasks. | BSD-3-Clause* | 29.2k | 2026-11-11 |
-| [temporalio/temporal](https://github.com/temporalio/temporal) | Workflow engine for long jobs with many steps that must survive crashes. Heavier to run. | MIT | 24.4k | 2026-11-12 |
+| [temporalio/temporal](https://github.com/temporalio/temporal) | Workflow engine for long jobs with many steps that must survive crashes. Heavier to run. | MIT | 24.4k | 2026-11-13 |
 | [hibiken/asynq](https://github.com/hibiken/asynq) | Task queue for Go. | MIT | 13.8k | 2026-11-11 |
-| [taskforcesh/bullmq](https://github.com/taskforcesh/bullmq) | Queue for Node.js and other languages. | MIT | 9.6k | 2026-11-12 |
-| [riverqueue/river](https://github.com/riverqueue/river) | Job queue that keeps its jobs in Postgres or SQLite, so there is one less service to run. | MPL-2.0 | 5.9k | 2026-11-11 |
+| [taskforcesh/bullmq](https://github.com/taskforcesh/bullmq) | Queue for Node.js and other languages. | MIT | 9.6k | 2026-11-13 |
+| [riverqueue/river](https://github.com/riverqueue/river) | Job queue that keeps its jobs in Postgres or SQLite, so there is one less service to run. | MPL-2.0 | 5.9k | 2026-11-12 |
 
 ### Monitor the rack
 
 | Tool | What it does | Licence | Stars | Last push |
 |---|---|---|---|---|
-| [prometheus/prometheus](https://github.com/prometheus/prometheus) | Collects numbers over time: phones online, battery temperature, jobs failed. | Apache-2.0 | 67.6k | 2026-11-11 |
-| [grafana/grafana](https://github.com/grafana/grafana) | Dashboards and alerts on top of those numbers. | AGPL-3.0 | 77.9k | 2026-11-12 |
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | Simple self-hosted "is it up" checks with notifications. Enough for a small rack. | MIT | 93.5k | 2026-11-12 |
+| [prometheus/prometheus](https://github.com/prometheus/prometheus) | Collects numbers over time: phones online, battery temperature, jobs failed. | Apache-2.0 | 67.6k | 2026-11-12 |
+| [grafana/grafana](https://github.com/grafana/grafana) | Dashboards and alerts on top of those numbers. | AGPL-3.0 | 77.9k | 2026-11-13 |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | Simple self-hosted "is it up" checks with notifications. Enough for a small rack. | MIT | 93.6k | 2026-11-13 |
 
 ### When you do not need real phones
 
